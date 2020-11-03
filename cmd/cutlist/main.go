@@ -62,7 +62,7 @@ func main() {
 	var cuts []cutlist.Length
 	for r.Scan() {
 		line := strings.TrimSpace(r.Text())
-		if line == "" {
+		if line == "" || strings.HasPrefix(line, "#") {
 			continue
 		}
 
