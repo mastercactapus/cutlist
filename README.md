@@ -2,6 +2,10 @@
 
 This program can be used to generate single-dimension cutlists.
 
+## Instal
+
+`go get github.com/mastercactapus/cutlist/cmd/cutlist`
+
 ## Usage
 
 ```
