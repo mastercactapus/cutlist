@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-type Length uint64
+type Length int64
 
 const (
 	Nanometer  = Length(1)
